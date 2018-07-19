@@ -1,4 +1,4 @@
-
+#!/usr/bin/js
 
 function insertionSort(arr) {
 	for (let i = 1; i <= arr.length - 1; i++) {
@@ -16,14 +16,9 @@ function insertionSort(arr) {
 
 
 let array = [43, -231, 53844, 0, 123, -4382425, 15];
-for (el of array) {
-	console.log(el + '\n');
-}
+console.log(array)
 
 console.log('\n');
 
 insertionSort(array);
-
-for (el of array) {
-	console.log(el + '\n');
-}
+console.log(array);
